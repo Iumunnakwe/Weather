@@ -105,7 +105,7 @@ body {
     0%   {color:red;color:green;color:cornflowerblue;color:grey;}
     100% {color:pink;color:red;color:purple;color:orange;}
   }
-  @media (max-width: 768px) {
+  @media (max-width: 700px) {
     body {
         font-size: 100%; /* Adjust font size for mobile */
     }
@@ -113,6 +113,8 @@ body {
     .card {
         padding: 1.5em; /* Less padding for smaller screens */
         border-radius: 15px; /* Smaller border radius */
+        height: 40vh; /* Smaller button height */
+        width: 80vw; /* Smaller button width */
     }
 
     button {
